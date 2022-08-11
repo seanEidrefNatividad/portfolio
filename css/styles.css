@@ -1,0 +1,36 @@
+
+body {
+  background: linear-gradient(gray 5%, white 30%, gray 40%, white 55%, gray 95%)
+}
+
+.header-container {
+  margin: 30px;
+  margin-bottom: 80px;
+}
+.body-container {
+  padding: 20px 0;
+  margin-bottom: 100px;
+}
+.carousel-header {
+  margin-bottom: 40px;
+}
+
+.carousel-inner {
+  margin-bottom: 40px;
+}
+.carousel-img {
+  margin: 0 auto;
+  height: auto;
+  max-width: 75%;
+}
+
+.footer-container {
+}
+
+@media (max-width:570px) {
+  .carousel-img {
+    margin: 0 auto;
+    height: auto;
+    max-width: 100%;
+  }
+}
