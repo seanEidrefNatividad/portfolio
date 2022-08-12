@@ -1,0 +1,32 @@
+body {
+  background-color: #f8f9fa;
+}
+
+header.container-fluid {
+  padding-top: 3%;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+.colored-section{
+  background: #212529;
+}
+
+footer.container-fluid {
+  margin-top: 15%;
+}
+
+/* Certificates Page */
+.for-short-title-fix {
+  /* Use when card width collapse due to few text or short title */
+  width: 100%
+}
+.certificates-section .card {
+  width: 100%;
+}
+
+/* Projects */
+.projects-btn {
+  width: 5rem;
+}
