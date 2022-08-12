@@ -1,0 +1,17 @@
+
+
+header.container-fluid {
+  padding-top: 3%;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+.colored-section{
+  background: #212529;
+}
+
+
+footer.container-fluid {
+  margin-top: 20%;
+}
