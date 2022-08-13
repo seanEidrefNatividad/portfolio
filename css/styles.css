@@ -1,0 +1,73 @@
+body {
+  background-color: #f8f9fa;
+}
+
+header.container-fluid {
+  padding-top: 3%;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+.colored-section{
+  background: #212529;
+}
+
+/* Certificates Page */
+.certificates-section .card {
+  width: 100%;
+}
+
+/* Projects Page */
+.projects-btn {
+  width: 10rem;
+}
+.project-icon {
+  margin-right: .5rem;
+}
+
+/* Biodata Page */
+.biodata-section {
+  letter-spacing: .07rem;
+  color: #f8f9fa;
+}
+.biodata-subheader {
+  margin-bottom: 1rem;
+  padding: .25rem;
+  border-bottom: 1px solid #f8f9fa;
+}
+.biodata-section ul:not(.hobby) {
+  padding-left: 0;
+  font-weight: bold;
+  list-style: none;
+}
+.biodata-data {
+  margin-bottom: .75rem;
+}
+
+.biodata-span {
+  font-weight: normal;
+}
+
+/* Footer */
+footer.container-fluid {
+  margin-top: 15%;
+}
+.footer-icon {
+  color: #f8f9fa;
+  margin: 0 .5rem;
+}
+.footer-p {
+  margin: .75rem 0;
+}
+
+@media (max-width: 450px) {
+  .footer-p {
+    font-size: .75rem;
+  }
+}
+@media (max-width: 340px) {
+  .footer-p {
+    font-size: .65rem;
+  }
+}
