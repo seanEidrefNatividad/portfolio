@@ -65,6 +65,13 @@ footer.container-fluid {
   margin: .75rem 0;
 }
 
+#bgvid {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
 @media (max-width: 450px) {
   .footer-p {
     font-size: .75rem;
@@ -73,5 +80,23 @@ footer.container-fluid {
 @media (max-width: 340px) {
   .footer-p {
     font-size: .65rem;
+  }
+}
+
+@media only screen and (max-width: 1270px) {
+  video {
+    height: 100%;
+  }
+  #bgvid {
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 1271px) {
+  video {
+    width: 100%;
+  }
+  #bgvid {
+    width: 100%;
   }
 }

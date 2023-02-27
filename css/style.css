@@ -1,0 +1,153 @@
+
+.hextext:hover {
+  font-size: 100%;
+  text-decoration: none;
+}
+
+.hextext:focus {
+  text-decoration: none;
+}
+
+.hextext {
+  color: #FFF;
+  transition: all 0.5s;
+  position: inherit;
+  z-index: 1000;
+  line-height: 98.15px;
+  font-size: 140%;
+  color: #cc0000;
+  text-align: center;
+  opacity: 1;
+  font-weight: bold;
+}
+
+
+/*Hexagon*/
+.hexTop,
+.hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 120.21px;
+  height: 120.21px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 24.90px;
+  -webkit-box-shadow: 2px 2px 25px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 25px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 25px 3px rgba(0, 0, 0, 0.75);
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 170.0000px;
+  height: 98.14954576223639px;
+  -webkit-transform: rotate(45deg) scaleY(1.7321) translateY(-49.0748px);
+  -ms-transform: rotate(45deg) scaleY(1.7321) translateY(-49.0748px);
+  transform: rotate(45deg) scaleY(1.7321) translateY(-49.0748px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop {
+  top: -60.1041px;
+}
+
+.nav-link.active.hextext.mylink {
+  color: blue;
+  font-size: 1.8rem;
+}
+
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -60.1041px;
+}
+
+.hexBottom:after {
+  background-position: center bottom;
+}
+
+.hexagon_menu {
+  display: block;
+}
+
+.hexagon {
+  position: relative;
+  width: 170px;
+  height: 98.15px;
+  margin: 25px;
+  margin-left: 7px;
+  margin-right: 7px;
+  background-color: #fff;
+  background-size: auto 196.2991px;
+  background-position: center;
+  background-image: url();
+  text-align: center;
+  cursor: pointer;
+
+  -webkit-box-shadow: 2px 2px 25px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 25px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 25px 3px rgba(0, 0, 0, 0.75);
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 0.0000px;
+  left: 0;
+  width: 170.0000px;
+  height: 98.1495px;
+  z-index: 2;
+  background: inherit;
+}
+
+.hexagon {
+  display: inline-block;
+  opacity: 0.8;
+  transition: all 0.5s;
+}
+
+.hexagon:hover {
+  transform: scale(1.2);
+  z-index: 1100;
+  opacity: 1;
+}
+
+#bgvid {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+body {
+  /* background-color: rgb(5, 8, 18); */
+}
+
+@media only screen and (max-width: 1270px) {
+  video {
+    height: 100%;
+  }
+  #bgvid {
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 1271px) {
+  video {
+    width: 100%;
+  }
+  #bgvid {
+    width: 100%;
+  }
+}
