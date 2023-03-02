@@ -72,6 +72,25 @@ footer.container-fluid {
   z-index: -1;
 }
 
+.toTop {
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+  border-radius: .5rem;
+  margin: .25rem;
+  display: block;
+  position: fixed;
+  padding: .5rem;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 2;
+}
+
+#back:hover {
+  color: white;
+  opacity: .70;
+}
+
 @media (max-width: 450px) {
   .footer-p {
     font-size: .75rem;
