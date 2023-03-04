@@ -91,9 +91,23 @@ footer.container-fluid {
   opacity: .70;
 }
 
+@media (min-width: 851px) {
+  #maps {
+    width:600px;
+    height:450px;
+  }
+}
+
 @media (max-width: 450px) {
   .footer-p {
     font-size: .75rem;
+  }
+}
+
+@media (max-width: 850px) {
+  #maps {
+    width:200px; 
+    height:150px;
   }
 }
 @media (max-width: 340px) {
